@@ -1,0 +1,68 @@
+.dropdown-toggle:after {
+    display: none;
+}
+
+.panel-btns {
+    background-color: #f2f2f2;
+    border-color: #999;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border-style: solid;
+}
+
+.key-comb {
+    float: right;
+    color: #aaa;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    color: #666;
+}
+
+.editor {
+    height: 450px;
+    background-color: white;
+    border: 1px solid #aaa;
+    padding: 5px;
+    border-radius: 3px;
+    overflow: scroll;
+}
+
+tr {
+    border: 0px solid #000;
+}
+
+table td {
+    border: 2px solid #555;
+    min-width: 50px;
+}
+
+table {
+    display: inline;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media print {
+    #controlls {
+        display: none;
+    }
+
+    #editor {
+        overflow: hidden;
+        height: auto;
+        border: 0px;
+        margin: 40px;
+    }
+}
